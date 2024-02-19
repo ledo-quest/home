@@ -1,0 +1,35 @@
+.msgdebug
+{
+	background-color: red !important;
+	color: yellow !important;
+}
+
+.msgdebug .msgdebughop
+{
+	display: none;
+	position: absolute;
+	background-color: yellow;
+	color: red;
+	z-index: 9999;
+	
+	text-transform: none;
+}
+
+.msgdebuglast
+{
+	z-index: 9999;
+	
+	background-color: red;
+	color: yellow;
+	
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	/*width: 80%;*/
+	height: 30px;
+	font-size: 14px;
+}
